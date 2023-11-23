@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="FR">
+    <head>
+        <meta charset="utf-8">
+        <title>Biographie</title>
+    </head>
+    <body>
+        <h1>CHAPPOT</h1>
+        
+        <img src="img/BradPItt.jpg" alt="problème"/>
+
+        <p> Bonjour mon prénom est Thomas et je suis actuellement en Master 1 Droit du Numérique.</p>
+        <p> La musique que j'écoute le plus est le Jazz</p>
+
+        <ul>
+            <li>J'ai réussi à finir un exercice de Luc Pelissier</li>
+        </ul>
+
+
+        <h1>Contactez moi</h1>
+
+        <form action="/submit_form" method="post" 
+            <fieldset>
+                <legend>Informations personnelles:</legend>
+
+                <label for="nom">Nom:</label><br>
+                <input type="text" id="nom" name="nom" required><br>
+            </fieldset>
+        </form>
+    </body>
+</html>
+
+        
