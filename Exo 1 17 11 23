@@ -26,6 +26,7 @@
                 <label for="nom">Nom:</label><br>
                 <input type="text" id="nom" name="nom" required><br>
             </fieldset>
+        
         </form>
     </body>
 </html>
