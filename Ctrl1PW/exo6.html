@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="FR">
+    <head>
+
+
+        <style>
+            body {
+                background-color: lightblue;
+            }
+
+            header {
+    
+                color: red;
+            }
+
+            footer {
+                
+                color: rgb(212, 255, 0);
+            }
+
+
+            p {
+                font-family: Arial, sans-serif;
+            }
+
+            p {
+                margin: 20px;
+                padding: 60px;
+            }
+
+
+            @media screen and (max-width: 1200px) {
+                header,body,footer {
+                    background-color: rgb(182, 255, 228);
+                }
+            }
+
+        </style>
+        
+        <meta charset="utf-8">
+        <title>Mon site internet</title>
+    </head>
+    <body>
+        <header>
+            <h1>L'objectif du site</h1>
+            <h2>Ce que je vais vendre</h2>
+        </header>
+        
+        <p>Ce site va vous proposer une large gamme de produits en lien avec les activités en extérieur</p>
+        <p>Toute ressemblance avec le site <a href="https://www.decathlon.fr/">décathlon</a> ne serait que purement fortuite</p>
+
+        <ol>
+            <li><a href="https://www.senscritique.com/">Sens Critique</a></li>
+            <li><a href="https://www.lemonde.fr/">Le Monde</a></li>
+            <li><a href="https://www.ratp.fr/">RATP</a></li>
+        </ol>
+            
+        <ul>
+            <li><a href="exo1.html">exo1</a></li>
+            <li><a href="page2.html">page2</a></li>
+        </ul>
+
+        <footer>
+            <p>Contacts</p>
+            <p>Nos magasins</p>
+            <p>Données personnelles</p>
+        </footer>
+
+        <h1>Formulaire de contact</h1>
+
+        <form action="/submit_form" method="post">
+            <fieldset>
+                <legend>Contactez nous:</legend>
+
+                <label for="nom">Nom:</label><br>
+                <input type="text" id="nom" name="nom" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="bio">Votre message:</label><br>
+                <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br>
+
+                <button type="submit">Envoyer</button>
+            </fieldset>
+
+        </form>
+
+    </body>
+</html>
