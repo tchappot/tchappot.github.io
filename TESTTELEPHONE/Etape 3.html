@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="FR">
+    <head>
+
+        <style>
+
+            header {
+                 color: navy;
+                font-family: 'Times New Roman', Times, serif, sans-serif;
+                text-align: center;
+            }
+
+            body {
+                background-color: rgb(197, 203, 208);
+            }
+
+            h2 {
+                 color: #ffdd00;
+                font-family: Arial, sans-serif;
+                text-align: center;
+            }
+
+            ol {
+                 color: navy;
+                font-family: 'Times New Roman', Times, serif, sans-serif;
+                text-align: center;
+            }
+
+            ul {
+                 color: navy;
+                font-family: 'Times New Roman', Times, serif, sans-serif;
+                text-align: center;
+            }
+
+
+            @media screen and (max-width: 600px) {
+                body {
+                    background-color: rgb(255, 182, 186);
+                }
+            }
+        
+        </style>
+        
+        <meta charset="utf-8">
+        
+        <title>Mon CV</title>
+
+    </head>
+    <body>
+        <header>
+            <h1>CV de THOMAS</h1>
+            <img src="img/BradPItt.jpg">
+        </header>
+        
+        <h2>Diplômes</h1>
+
+        <ol>
+            <li>BAC ES mention BIEN</li>
+            <li>Licence de Droit de Paris Descartes</li>
+            <li>Master 1 Droit du Numérique de Créteil : en cours de validation</li>
+        </ol>
+        
+        <h2>Expériences</h2>
+        <ul>
+            <li>Vendeur pour Loewe au Bon Marché</li>
+            <li>Vendeur pour Stone Island</li>
+            <li>Stagiaire au sein du cabinet Kirmen et Lefebvre</li>
+        </ul>
+
+        <h2>Formulaire de contact</h2>
+
+        <form action="/submit_form" method="post">
+            <fieldset>
+                <legend>Contactez moi :</legend>
+
+                <label for="nom">Nom:</label><br>
+                <input type="text" id="nom" name="nom" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="bio">Votre message:</label><br>
+                <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br>
+
+                <button type="submit">Envoyer</button>
+            </fieldset>
+
+        </form>
+
+    </body>
+</html>
